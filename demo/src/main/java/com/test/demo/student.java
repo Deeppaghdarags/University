@@ -6,6 +6,7 @@ public class student {
 		System.out.println("Student Details given below");
 		System.out.println("Given Details are the students of LD College");
 		System.out.println("1 student");
+		System.out.println("2 Student");
 		try {
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/College","root","P@ssw0rd@123");
 			
