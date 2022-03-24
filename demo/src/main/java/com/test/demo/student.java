@@ -3,6 +3,7 @@ import java.sql.*;
 
 public class student {
 	public static void main(String[] args) {
+		System.out.println("Student Details given below");
 		try {
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/College","root","P@ssw0rd@123");
 			
