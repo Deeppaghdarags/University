@@ -5,6 +5,7 @@ public class student {
 	public static void main(String[] args) {
 		System.out.println("Student Details given below");
 		System.out.println("Given Details are the students of LD College");
+		System.out.println("1 student");
 		try {
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/College","root","P@ssw0rd@123");
 			
